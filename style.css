@@ -1,0 +1,305 @@
+body{
+    font-family: ' Alternates','Open Sans', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+
+    text-decoration: none;
+}
+.wrapper{
+    background:  url("img/backgraund.jpg") no-repeat   ;
+    /*height: 100px;
+    width: 100%;*/
+    background-size: 100%;
+}
+.header{
+    width: 100%;
+    display: flex;
+}
+.header_logo{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+nav{
+    margin-top: 40px;
+    margin-left: 32%;
+
+}
+.top_nav a{
+    font-size: 15px;
+    margin-right: 35px;
+    color: #ffffff;
+}
+.main{
+    text-align: center;
+    padding-top: 251px;
+}
+.main h1{
+    color: #ffffff;
+display: block;
+    font-size: 48px;
+
+}
+.main p{
+    display: block;
+    font-size: 20px;
+    padding-top: 38px;
+    color: #ffffff;
+    padding-bottom: 55px;
+}
+.main button{
+    font-weight: bold;
+    font-size: 16px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    height: 80px;
+    width: 180px;
+    margin-bottom: 260px;
+}
+.main button:hover{
+    font-weight: bold;
+    font-size: 16px;
+    background-color:#ffffff ;
+    color: #c0301c;
+    border: 2px solid #ffffff;
+    height: 80px;
+    width: 180px;
+}
+
+.services{
+    text-align: center;
+}
+.services h3{
+    padding-top: 100px;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.services p{
+    color: #646464;
+    font-size: 16px;
+}
+.line {
+    width: 51px;
+
+    height: 3px;
+    color: #555555;
+    position: relative;
+    left: 48.7%;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #555555;
+}
+.services_cards{
+    padding-top: 70px;
+    display: flex;
+    margin-left: 14.4%;
+    text-align: center;
+    margin-bottom: 101px;
+}
+.services_cards .card{
+    margin-left: 60px;
+}
+.card h5{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-size: 14px;
+}
+.card p{
+    font-size: 14px;
+}
+
+
+
+/* About section styles */
+
+.about {
+	background-color: #f8f8f8;
+}
+
+.about-wrapper {
+	max-width:1200px;
+	margin: 0 auto;
+	color: #555555;
+	
+	
+}
+.head-text {
+	padding-bottom:70px;
+	display:flex;
+	
+	align-items: center;
+	flex-direction: column;
+}
+.head-text h2 {
+	padding: 3vh 0;
+}
+.head-text hr {
+	width: 53px;
+	border: 3px solid #555555;
+}
+.head-text p {
+	padding-top:3vh;
+}
+.about-main-text {
+	display: flex;
+
+}
+.about-main-text p {
+	margin-right: 3vh;
+}
+
+/* Get in touch section style */
+
+
+.get-in-touch {
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+.git-contact {
+	padding:2vh 0;
+}
+.git-contact img {
+	display:inline-block;
+	padding: 0 2vh;
+}
+.git-contact h4 {
+	display: inline-block;
+
+}
+.git-contact p {
+	padding: 2vh;
+	font-size:0.9rem;
+}
+.get-in-touch-contacts {
+	max-width:500px;
+	margin-right: 40px;
+}
+.get-in-touch-main {
+	display: flex;
+}
+.get-in-touch-form{
+	margin-left: 4vh;
+}
+.git-form input {
+	width: 350px;
+	height: 40px;
+	padding:2px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.git-form textarea {
+	width: 750px;
+	margin-left: 30px;
+	margin-top: 30px;
+	height:100px;
+	padding-top: 1vh;
+	color: #555555;
+}
+.git-form button {
+	width: 170px;
+	height:40px;
+	margin-left: 30px;
+	margin-top: 30px;
+	background-color: white;
+	color:#555;
+	border:1px solid black;
+}
+.git-form button:hover {
+	background-color: #c0301c;
+	border:none;
+	color: #fbf2f1;
+	cursor: pointer;
+
+}
+
+
+.about-slider {
+	padding:5vh 0;
+	width:500px;
+	height:300px;
+	margin: 0 auto;
+}
+
+.img {
+	text-align:center;
+	line-height: 300px;
+	position: absolute;
+	font-size:50px;
+	color:#fff;
+	display:none;
+}
+.img.curry{
+	display:block;
+}
+.img:first-child{
+	width:500px;
+	background: #CA0f1f;
+}
+.img:nth-child(2){
+	width:500px;
+	background: green;
+}
+
+.img:nth-child(3){
+	width:500px;
+	background: gray;
+}
+
+.img:nth-child(4){
+	width:500px;
+	background: yellow;
+}
+
+.img:nth-child(5){
+	width:500px;
+	background: orange;
+}
+
+
+/*Do you like our works section*/
+
+.parallax {
+	background-image: url("img/dyl-background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	width:100%;
+}
+.parallax-wrapper {
+	background-color: rgba(192,48,28,0.6);
+	width:100%;
+	height:100%;
+}
+.parallax-main {
+	padding:10vh 0;
+	display:block;
+	max-width:500px;
+	margin: 0 auto;
+	text-align:center;
+}
+.parallax-text {
+	font-size: 1.8rem;
+	line-height: 4rem;
+	color:white;
+}
+.parallax-btn {
+	width: 180px;
+	height:50px;
+	margin-top: 3vh;
+	font-size: 1.2rem;
+	border:1px solid white;
+	color:white;
+	background-color: rgba(0,0,0,0)
+}
+.parallax-btn:hover {
+	background-color: white;
+	color:red;
+	cursor:pointer;
+}
